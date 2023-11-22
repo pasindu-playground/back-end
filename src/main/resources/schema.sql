@@ -9,6 +9,7 @@ CREATE TABLE IF NOT EXISTS course(
     name VARCHAR(50) NOT NULL,
     duration_in_months INT NOT NULL
 );
+
 CREATE TABLE IF NOT EXISTS teacher_course(
     teacher_id INT NOT NULL ,
     course_id INT NOT NULL ,
