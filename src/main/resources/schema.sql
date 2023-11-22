@@ -9,4 +9,3 @@ CREATE TABLE IF NOT EXISTS course(
     name VARCHAR(50) NOT NULL,
     duration_in_months INT NOT NULL
 );
-CREATE TABLE;
